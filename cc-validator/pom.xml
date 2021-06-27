@@ -8,9 +8,9 @@
 		<version>2.5.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example.ctm</groupId>
+	<groupId>com.dhawana.ctm</groupId>
 	<artifactId>cc-validator</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>cc-validator</name>
 	<description>Credit Card Validator using Luhn&apos;s algorithm</description>
 	<properties>

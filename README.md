@@ -8,11 +8,23 @@ Java 1.8 or higher
 
 To build the application simply clone the repo into your desktop and run the below. For the porpose we will take the folder to be "C:\code\CTM" where application is cloned. You need to change this accordingly for linux and mac.
 
-- Open git bash or another CLI.
-- navigate to folder /c/code/CTM/cc-validator
+- Open any CLI like powershell or console.
+- navigate to folder C:\code\CTM\cc-validator
 - mvn clean install (This step will download all dependencies)
 - mvn spring-boot:run (This will start the application)
 
-Once the application has started, you can Open a browser and can test the API using below URI:
 
-http://localhost:8080/api/validateCreditCard?cardNumber=xxxxxxxxxxx 
+If the file has been trasferred as zip file, then floow the below steps:
+- extract zip to a folder "C:\code"
+- Open any CLI like powershell or console.
+- Go to C:\code\CTM\cc-validator
+- mvn clean install (This step will download all dependencies)
+- mvn spring-boot:run (This will start the application)
+
+
+Once the application has started successfully, you can Open a browser and can test the API using below URI:
+
+http://localhost:8080/api/validateCreditCard?cardNumber=xxxxxxxxxxx
+
+
+ 

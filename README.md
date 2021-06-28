@@ -21,6 +21,9 @@ If the file has been trasferred as zip file, then floow the below steps:
 - mvn clean install (This step will download all dependencies)
 - mvn spring-boot:run (This will start the application)
 
+API documentation can be viewed on:
+http://localhost:8080/swagger-ui/index.html
+
 
 Once the application has started successfully, you can Open a browser and can test the API using below URI:
 
